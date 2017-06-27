@@ -6,11 +6,18 @@ pattern = '#+\s'
 
 
 def usage():
+    print ''' 
+                           \`~'/  
+                           (o o)  
+                            \ / \ '''
     print "-" * 60
     print "\tusage:"
     print "\tpython script.py srcFilename.md"
     print "\tthen you will get a res.md with contents"
     print "\twhich is under the same path as srcFilename\n\tenjoy!"
+    print ""
+    print '''\tyou can reach for the latest version via 
+    https://github.com/findneo/gen-markdown-content'''
     print "-" * 60
 
 
